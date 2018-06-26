@@ -15,10 +15,48 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+
+        window = UIWindow()
+        window?.frame = UIScreen.main.bounds
+        
+        //1 UINavigationController
+//        var nav = UINavigationController()
+//        nav = UINavigationController.init(rootViewController: ViewController())
+//        window?.rootViewController = nav
+        
+        //2 tablbarcontroller
+        let first = FirstViewController()
+        let second = SecondViewController()
+        let third = ThirdViewController()
+        
+//        first.tabBarItem.image = UIImage(named: "first")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+//        first.tabBarItem.selectedImage = UIImage(named: "firsted")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+//        first.title = "第一个"
+        creatViewControllers(vc:first,image:"first",selectedImage:"firsred",title:"第1️⃣个")
+        creatViewControllers(vc:second,image:"second",selectedImage:"seconded",title:"第2️⃣个")
+        creatViewControllers(vc:third,image:"third",selectedImage:"thirded",title:"第3️⃣个")
+        
+        let tableBarVC = UITabBarController()
+        tableBarVC.viewControllers = [UINavigationController(rootViewController: first),
+                                      UINavigationController(rootViewController: second),
+                                      UINavigationController(rootViewController: third)]
+        tableBarVC.selectedIndex = 0
+        second.tabBarItem.badgeValue = "3"
+        tableBarVC.tabBar.tintColor = UIColor(red: 9/255.0, green: 187/255.0, blue: 7/255.0, alpha: 1)
+        window?.rootViewController = tableBarVC
+    
+        
+        window?.makeKeyAndVisible()
         return true
     }
 
+    func creatViewControllers(vc:UIViewController,image:String,selectedImage:String,title:String){
+        vc.tabBarItem.image = UIImage(named: image)?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        vc.tabBarItem.selectedImage = UIImage(named: selectedImage)?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        vc.title = title
+
+    }
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

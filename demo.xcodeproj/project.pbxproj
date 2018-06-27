@@ -24,6 +24,8 @@
 		28DFAFC020E24462006CC025 /* firsred.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DFAFBF20E24462006CC025 /* firsred.png */; };
 		28DFAFC220E24475006CC025 /* seconded.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DFAFC120E24475006CC025 /* seconded.png */; };
 		28DFAFC420E244A4006CC025 /* thirded.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DFAFC320E244A4006CC025 /* thirded.png */; };
+		28DFAFC820E38060006CC025 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFAFC720E38060006CC025 /* TestViewController.swift */; };
+		28DFAFCA20E3806D006CC025 /* HDFullScreenPopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFAFC920E3806D006CC025 /* HDFullScreenPopGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		28DFAFBF20E24462006CC025 /* firsred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firsred.png; sourceTree = "<group>"; };
 		28DFAFC120E24475006CC025 /* seconded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seconded.png; sourceTree = "<group>"; };
 		28DFAFC320E244A4006CC025 /* thirded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thirded.png; sourceTree = "<group>"; };
+		28DFAFC720E38060006CC025 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		28DFAFC920E3806D006CC025 /* HDFullScreenPopGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDFullScreenPopGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 				28DFAFBB20E24404006CC025 /* second.png */,
 				28DFAFBD20E24416006CC025 /* third.png */,
 				28DFAFB920E243F6006CC025 /* first.png */,
+				28DFAFC920E3806D006CC025 /* HDFullScreenPopGesture.swift */,
 				28DFAFB320E24362006CC025 /* FirstViewController.swift */,
+				28DFAFC720E38060006CC025 /* TestViewController.swift */,
 				28DFAFB520E2436D006CC025 /* SecondViewController.swift */,
 				28DFAFB720E24377006CC025 /* ThirdViewController.swift */,
 			);
@@ -190,9 +196,11 @@
 				28DFAFAD20DCF39D006CC025 /* NavgationView.swift in Sources */,
 				28DFAF9920DCAE06006CC025 /* ViewController.swift in Sources */,
 				28DFAFB420E24362006CC025 /* FirstViewController.swift in Sources */,
+				28DFAFCA20E3806D006CC025 /* HDFullScreenPopGesture.swift in Sources */,
 				28DFAFB620E2436D006CC025 /* SecondViewController.swift in Sources */,
 				28DFAFAB20DCC0C3006CC025 /* dyy.swift in Sources */,
 				28DFAFB820E24377006CC025 /* ThirdViewController.swift in Sources */,
+				28DFAFC820E38060006CC025 /* TestViewController.swift in Sources */,
 				28DFAF9720DCAE06006CC025 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

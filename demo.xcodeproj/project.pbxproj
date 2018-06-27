@@ -26,6 +26,8 @@
 		28DFAFC420E244A4006CC025 /* thirded.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DFAFC320E244A4006CC025 /* thirded.png */; };
 		28DFAFC820E38060006CC025 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFAFC720E38060006CC025 /* TestViewController.swift */; };
 		28DFAFCA20E3806D006CC025 /* HDFullScreenPopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFAFC920E3806D006CC025 /* HDFullScreenPopGesture.swift */; };
+		28DFAFCC20E38442006CC025 /* protocolTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFAFCB20E38442006CC025 /* protocolTools.swift */; };
+		28DFAFCE20E38816006CC025 /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFAFCD20E38816006CC025 /* ProtocolViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		28DFAFC320E244A4006CC025 /* thirded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thirded.png; sourceTree = "<group>"; };
 		28DFAFC720E38060006CC025 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		28DFAFC920E3806D006CC025 /* HDFullScreenPopGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDFullScreenPopGesture.swift; sourceTree = "<group>"; };
+		28DFAFCB20E38442006CC025 /* protocolTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocolTools.swift; sourceTree = "<group>"; };
+		28DFAFCD20E38816006CC025 /* ProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				28DFAFC720E38060006CC025 /* TestViewController.swift */,
 				28DFAFB520E2436D006CC025 /* SecondViewController.swift */,
 				28DFAFB720E24377006CC025 /* ThirdViewController.swift */,
+				28DFAFCD20E38816006CC025 /* ProtocolViewController.swift */,
+				28DFAFCB20E38442006CC025 /* protocolTools.swift */,
 			);
 			path = tabbarcontroller;
 			sourceTree = "<group>";
@@ -195,6 +201,8 @@
 				28DFAFB120E22A8A006CC025 /* NextViewController.swift in Sources */,
 				28DFAFAD20DCF39D006CC025 /* NavgationView.swift in Sources */,
 				28DFAF9920DCAE06006CC025 /* ViewController.swift in Sources */,
+				28DFAFCC20E38442006CC025 /* protocolTools.swift in Sources */,
+				28DFAFCE20E38816006CC025 /* ProtocolViewController.swift in Sources */,
 				28DFAFB420E24362006CC025 /* FirstViewController.swift in Sources */,
 				28DFAFCA20E3806D006CC025 /* HDFullScreenPopGesture.swift in Sources */,
 				28DFAFB620E2436D006CC025 /* SecondViewController.swift in Sources */,
